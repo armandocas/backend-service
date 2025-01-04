@@ -11,4 +11,7 @@ router.get('/', (req, res) => {
 // Rota para submissão do formulário
 router.post('/submit', submitForm);
 
+// Nova rota para obter todas as informações cadastradas
+router.get('/data', getAllForms);
+
 export default router;
