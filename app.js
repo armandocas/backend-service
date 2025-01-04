@@ -9,8 +9,8 @@ const app = express();
 
 app.use(cors({
     origin: [
-        'https://landing-page-738owdtpb-thedjangocowboys-projects.vercel.app/api', // Origem do seu frontend
-        'https://backend-service-wine.vercel.app/api', // Origem do backend (se necessário)
+        'https://landing-page-738owdtpb-thedjangocowboys-projects.vercel.app', // Origem do seu frontend
+        'https://backend-service-wine.vercel.app', // Origem do backend (se necessário)
       ],
       methods: ['GET', 'POST', 'PUT', 'DELETE'], // Métodos permitidos
       allowedHeaders: ['Content-Type'], // Cabeçalhos permitidos
